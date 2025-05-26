@@ -54,25 +54,25 @@ text-shadow: 2px 2px #ffe6f0;
 
  @media only screen and (max-width: 600px) {
  body {
- font-size: 44px;
+ font-size: 14px;
  }
  h1, h2, h3 {
- font-size: 48px;
+ font-size: 18px;
  }
 
  .centered-title {
- font-size: 2.6em;
+ font-size: 1.8em;
  }
 
  .shiny-input-container {
- margin-bottom: 16px;
+ margin-bottom: 10px;
  }
  }
  "))
   ),
   
   # Audio element
-  tags$audio(src = "maneskin.mp3", type = "audio/mp3", autoplay = T, loop = NA),
+  tags$audio(src = "maneskin.mp3", type = "audio/mp3", autoplay = NA, loop = NA),
   
   # JavaScript to play audio on button click
   tags$script(HTML("
