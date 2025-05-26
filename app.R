@@ -54,18 +54,18 @@ text-shadow: 2px 2px #ffe6f0;
 
  @media only screen and (max-width: 600px) {
  body {
- font-size: 18px;
+ font-size: 24px;
  }
  h1, h2, h3 {
- font-size: 22px;
+ font-size: 26px;
  }
 
  .centered-title {
- font-size: 2.2em;
+ font-size: 2.6em;
  }
 
  .shiny-input-container {
- margin-bottom: 12px;
+ margin-bottom: 16px;
  }
  }
  "))
