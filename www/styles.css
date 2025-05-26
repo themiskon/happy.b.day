@@ -1,14 +1,19 @@
 
-@media only screen and (max-width: 600px) {
-  body {
-    font-size: 14px;
-  }
 
-  h1, h2, h3 {
-    font-size: 18px;
-  }
+media only screen and (max-width: 600px) {
+ body {
+ font-size: 18px;
+ }
 
-  .shiny-input-container {
-    margin-bottom: 10px;
-  }
+ h1, h2, h3 {
+font-size: 22px;
+}
+
+ .centered-title {
+ font-size: 2.2em;
+ }
+
+ .shiny-input-container {
+ margin-bottom: 12px;
+ }
 }
