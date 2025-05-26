@@ -52,6 +52,14 @@ text-shadow: 2px 2px #ffe6f0;
  z-index: -1;
  }
 
+.centered img {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ max-width: 100%;
+ height: auto;
+}
+
  @media only screen and (max-width: 600px) {
  body {
  font-size: 14px;
