@@ -72,7 +72,7 @@ text-shadow: 2px 2px #ffe6f0;
   ),
   
   # Audio element
-  tags$audio(src = "maneskin.mp3", type = "audio/mp3", autoplay = NA, loop = NA),
+  tags$audio(src = "maneskin.mp3", type = "audio/mp3", autoplay = T, loop = NA),
   
   # JavaScript to play audio on button click
   tags$script(HTML("
