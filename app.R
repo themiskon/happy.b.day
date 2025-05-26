@@ -54,10 +54,10 @@ text-shadow: 2px 2px #ffe6f0;
 
  @media only screen and (max-width: 600px) {
  body {
- font-size: 24px;
+ font-size: 44px;
  }
  h1, h2, h3 {
- font-size: 26px;
+ font-size: 48px;
  }
 
  .centered-title {
